@@ -1,0 +1,167 @@
+main {
+    min-height: 1500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+}
+
+.vertical ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    background-color: black;
+}
+
+.vertical li {
+    text-align: center;
+    border-bottom:1px solid white;
+}
+
+.vertical li :last-child {
+    border-bottom: none;
+}
+
+.vertical li a {
+    display: block;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+
+.vertical img {
+    width:50%;
+    margin-top:50px;
+}
+
+.vartical button {
+    background-color:black;
+    border-radius:10px;
+    padding:4px 30px;
+    color:white;
+}
+
+.vertical h3 {
+    color:black;
+}
+
+.info img {
+   width:50%;
+   display:block;
+}
+
+.info button {
+    display:block;
+}
+
+.info p {
+    display:block;
+}
+
+.img {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.button {
+    padding:10px 10px;
+}
+
+button {
+    background-color:black;
+    border-radius:10px;
+    padding:3px 30px;
+}
+
+.start {
+    margin-top:80px;
+}
+
+.tern {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.ogso {
+    margin-top:50px;
+}
+
+.retur {
+    margin-top:100px;
+}
+
+#form {
+    background-color:lightgrey;
+    padding:30px;
+    border-radius:8px;
+}
+
+#form input{
+    width:30%;
+    border-radius:12px;
+}
+
+#form textarea {
+    width:30%;
+    height:200px;
+    border-radius:12px;
+}
+
+#form button {
+    background-color:white;
+}
+
+.para {
+    color:orange;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+i {
+    margin-left:10px;
+    margin-top:5px;
+}
+
+.row img {
+    width:20%;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+.ans img {
+    width:50%;
+}
+
+.produkt img {
+    width:50%;
+}
+
+footer {
+    background-color:black;
+}
+
+footer p {
+    color:white;
+}
+

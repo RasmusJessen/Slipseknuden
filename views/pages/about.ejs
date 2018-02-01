@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%include ../partials/head %>
+    </head>
+<body>
+<main>
+    <header>
+         <%include ../partials/header %>
+    </header>
+
+    <%include ../partials/products %>
+
+    <h2>Slipseknuden</h2>
+    <p>Slipseknuden blev etableret i 1984 da og blev straks kendt som en butik med slips i de 
+        aller fineste kvalietsslips. Tilbage i 80'erne var der 5 ansatte og siden er det gået 
+        enormt stærkt, i dag er slipseknuden en verdensomspændende æde af slipsebutkker fordelt i 
+        hele europa med tusindvis af ansatte. Slipseknuden har kun det ypperste indenfor slips. 
+        Hos os finder du kvalitetsvarer der er usammenlignelige med andre slips. Et slips fra os 
+        vil bliver bemærket overalt du måtte færdes. Vores slips signalere kvaltet og god smag! </p>
+      
+        <img class="tern" src="/img/10_tern.jpg">
+
+<div class="ans">
+ <div class="row">
+    <div class="col-lg-3">
+        <img src="img/<%=ansatte[0].billedet %>" alt="">
+        <p>
+        <%=ansatte[0].navn %>
+        </p>
+        <p>
+        <%=ansatte[0].job %>
+        </p>
+        <%=ansatte[0].Email %>
+    </div>
+
+    <div class="col-lg-3">
+        <img src="img/<%=ansatte[1].billedet %>" alt="">
+        <p>
+        <%=ansatte[1].navn %>
+        </p>
+        <p>
+        <%=ansatte[1].job %>
+        </p>
+        <%=ansatte[1].Email %>
+    </div>
+
+    <div class="col-lg-3">
+        <img src="img/<%=ansatte[2].billedet %>" alt="">
+        <p>
+        <%=ansatte[2].navn %>
+        </p>
+        <p>
+        <%=ansatte[2].job %>
+        </p>
+        <%=ansatte[2].Email %>
+    </div>
+    </div>
+ </div>
+
+</main>
+
+        <footer>
+            <%include ../partials/footer %>
+        </footer>
+        
+</body>
+</html>

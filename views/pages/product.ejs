@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+       <%include ../partials/head %>
+  </head>
+  
+  <body>
+      <main>
+        <header>
+             <%include ../partials/header %>
+           </header>
+
+        <%include ../partials/products %>
+     
+      <div class="produkt">
+
+        <div class="col-md-4">
+          <h2>
+          <%=produkt[0].navn %>
+          </h2>
+          <h4>
+          <%=produkt[0].farve %>
+          </h4>
+          <img src="img/<%=produkt[0].billedet %>" alt="">
+          <h4>
+          <%=produkt[0].pris %> ,-
+          </h4>
+          <button>INFO</button>
+        </div>
+       
+        <div class="col-md-4">
+            <h2>
+            <%=produkt[1].navn %>
+            </h2>
+            <h4>
+            <%=produkt[1].farve %>
+            </h4>
+            <img src="img/<%=produkt[1].billedet %>" alt="">
+            <h4> 
+            <%=produkt[1].pris %> ,-
+            </h4> 
+            <button>INFO</button>
+          </div>
+
+          <div class="col-md-4">
+              <h2>
+              <%=produkt[2].navn %>
+              </h2>
+              <h4>
+              <%=produkt[2].farve %>
+              </h4>
+              <img src="img/<%=produkt[2].billedet %>" alt="">
+              <h4>
+              <%=produkt[2].pris %> ,-
+              </h4>
+              <button>INFO</button>
+            </div>
+
+            <div class="col-md-4">
+                <h2>
+                <%=produkt[3].navn %>
+                </h2>
+                <h4>
+                <%=produkt[3].farve %>
+                </h4>
+                <img src="img/<%=produkt[3].billedet %>" alt="">
+                <h4>
+                <%=produkt[3].pris %> ,-
+                </h4>
+                <button>INFO</button>
+              </div>
+
+              <div class="col-md-4">
+                  <h2>
+                  <%=produkt[4].navn %>
+                  </h2>
+                  <h4>
+                  <%=produkt[4].farve %>
+                  </h4>
+                  <img src="img/<%=produkt[4].billedet %>" alt="">
+                  <h4>
+                  <%=produkt[4].pris %> ,-
+
+                  </h4>
+                  <button>INFO</button>
+                </div>
+
+                <div class="col-md-4">
+                    <h2>
+                    <%=produkt[5].navn %>
+                    </h2>
+                    <h4>
+                    <%=produkt[5].farve %>
+                    </h4>
+                    <img src="img/<%=produkt[5].billedet %>" alt="">
+                    <h4>
+                    <%=produkt[5].pris %> ,-
+                    </h4>
+                    <button>INFO</button>
+                  </div>
+
+      
+      </main>
+        
+        
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+        </body>
