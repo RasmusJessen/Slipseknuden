@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%include ../partials/head %>
+    </head>
+<body>
+<main>
+    <header>
+         <%include ../partials/header %>
+    </header>
+
+    <%include ../partials/products %>
+
+<div class="col-md-4">
+   <h2><%=info[0].navn %></h2>
+   <img src="img/<%=info[0].billedet %>" alt="">
+   <p><%=info[0].information %></p>
+</div>
+
+<div class="col-md-4">
+        <h2><%=info[1].navn %></h2>
+        <img src="img/<%=info[1].billedet %>" alt="">
+        <p><%=info[1].information %></p>
+     </div>
+
+     <div class="col-md-4">
+            <h2><%=info[2].navn %></h2>
+            <img src="img/<%=info[2].billedet %>" alt="">
+            <p><%=info[2].information %></p>
+         </div>
+
+         <div class="col-md-4">
+                <h2><%=info[3].navn %></h2>
+                <img src="img/<%=info[3].billedet %>" alt="">
+                <p><%=info[3].information %></p>
+             </div>
+
+        <div class="col-md-4">
+              <h2><%=info[4].navn %></h2>
+             <img src="img/<%=info[4].billedet %>" alt="">
+             <p><%=info[4].information %></p>
+        </div>
+
+        <div class="col-md-4">
+                <h2><%=info[5].navn %></h2>
+                <img src="img/<%=info[5].billedet %>" alt="">
+                <p><%=info[5].information %></p>
+        </div>   
+</main>
+
+<footer>
+    <%include ../partials/footer %>
+</footer>
+</body>

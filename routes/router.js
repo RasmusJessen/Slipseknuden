@@ -5,4 +5,5 @@ module.exports = (app) => {
     require('./contact')(app);
     require('./news')(app);
     require('./product')(app);
+    require('./om')(app);
 }

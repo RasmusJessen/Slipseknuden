@@ -11,3 +11,6 @@ Jeg lavede min JSON data hvor jeg tilføjede de data som jeg skulle bruge til mi
 
 ##Dag 4 
 Jeg lagde den sidste hånd på min produktside, og fik indtastede det sidste data ind. Jeg lavede også noget til min "Om Slipseknuden" side, hvor jeg lavede JSON til alt informationen om dem, og indsatte det der. 
+
+##Dag 5 
+Jeg lavede en ny side jeg har kaldet den "om", hvor man trykker på en af knapperne på produktsiden og så kommer man ind på siden. På den side har jeg udskrevet alle informationer ud via JSON. Jeg lavede også noget kontakt validering.  

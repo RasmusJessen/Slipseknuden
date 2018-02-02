@@ -28,15 +28,21 @@ document.querySelector('#submit').addEventListener('click', function (event){
         // hvis der ikke står noget siger den fejl, og hvis der står noget går den videre
         if(document.querySelector('#name').value.length === 0) {
             fejlbesked('#name');
+            alert("Skriv dit navn");
         } 
         
         if (document.querySelector('#mail').value.length === 0){
             fejlbesked('#mail');
+            alert("Skriv din email")
         } 
         
         if (document.querySelector('#msg').value.length === 0) {
             fejlbesked('#msg');
-        } 
+            alert("Skriv din besked");
+        } else {
+            alert("Vi har modtaget dine oplysninger");
+            window.location.replace("/contact");
+        }
     
         
         
